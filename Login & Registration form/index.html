@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login & Registration form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="main-card">
+        <!-- Content Right -->
+        <div class="main-card-content-right" style="display: none">
+          <h1>Don't have an account?</h1>
+          <button id="sign-up">Sign up</button>
+        </div>
+
+        <!-- Content Left -->
+        <div class="main-card-content-left">
+          <h1>Do you have an account?</h1>
+          <button id="login">Login</button>
+        </div>
+
+        <!-- Card Sign up Page -->
+        <div class="card-signup">
+          <input type="text" placeholder="First Name" />
+          <input type="text" placeholder="Last Name" />
+          <input type="email" placeholder="Email" />
+          <input type="password" placeholder="Password" />
+          <button>Sign up</button>
+        </div>
+
+        <!-- Card Login Page -->
+        <div class="card-login" style="display: none">
+          <input type="text" placeholder="Username" />
+          <input type="password" placeholder="Password" />
+          <button>Log in</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
